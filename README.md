@@ -197,9 +197,8 @@ After completing this project, students will understand:
 
 The Password Strength Analyzer is a beginner-friendly Cyber Security project that helps users create secure passwords by evaluating their strength and providing improvement suggestions. The project demonstrates practical implementation of front-end web development along with basic authentication concepts.
 
----
+--
 
-## 📄 License
-
-This project is developed for educational purposes only.
+develped by :
+YASH PUROHIT 
 
