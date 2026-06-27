@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecurePass Pro</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<h1>🔐 SecurePass Pro</h1>
+
+<button onclick="toggleTheme()" id="themeBtn">
+🌙 Dark Mode
+</button>
+
+</nav>
+
+<div class="container">
+
+<h2>
+Cyber Security Awareness & Assessment Platform
+</h2>
+
+<!-- Password Analyzer -->
+
+<div class="card">
+
+<h2>Password Strength Analyzer</h2>
+
+<input
+type="password"
+id="password"
+placeholder="Enter Password">
+
+<button onclick="checkPassword()">
+Analyze Password
+</button>
+
+<h3 id="passwordResult"></h3>
+
+<div class="meter">
+<div id="strengthBar"></div>
+</div>
+
+</div>
+
+<!-- Password Generator -->
+
+<div class="card">
+
+<h2>Password Generator</h2>
+
+<button onclick="generatePassword()">
+Generate Password
+</button>
+
+<h3 id="generatedPassword"></h3>
+
+</div>
+
+<!-- URL Detector -->
+
+<div class="card">
+
+<h2>Phishing URL Detector</h2>
+
+<input
+type="text"
+id="urlInput"
+placeholder="https://example.com">
+
+<button onclick="checkURL()">
+Check URL
+</button>
+
+<h3 id="urlResult"></h3>
+
+</div>
+
+<!-- Email Analyzer -->
+
+<div class="card">
+
+<h2>Email Security Analyzer</h2>
+
+<input
+type="text"
+id="emailInput"
+placeholder="example@gmail.com">
+
+<button onclick="checkEmail()">
+Analyze Email
+</button>
+
+<h3 id="emailResult"></h3>
+
+</div>
+
+<!-- Quiz -->
+
+<div class="card">
+
+<h2>🧠 Cyber Security Quiz</h2>
+
+<h3 id="question"></h3>
+
+<div id="options"></div>
+
+<br>
+
+<button onclick="nextQuestion()">
+Next Question
+</button>
+
+<h3 id="quizResult"></h3>
+
+</div>
+
+<!-- Dashboard -->
+
+<div class="card">
+
+<h2>📊 Security Dashboard</h2>
+
+<h3 id="dashboardScore">
+Overall Security Score: 0
+</h3>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
